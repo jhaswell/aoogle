@@ -1,0 +1,11 @@
+Name:           lsa
+Version:        0.0
+Description:    lsa implementation for aoogle
+License:        MIT
+Author:         Josiah Haswell
+Maintainer:     jhaswell@electric-cloud.com
+Build-Type:     Simple
+Cabal-Version:  >=  1.2
+Executable  lsa
+  Main-is:        src/LSA.hs
+  Build-Depends:  base > 3 && < 8
