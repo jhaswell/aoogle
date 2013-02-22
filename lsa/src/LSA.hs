@@ -1,4 +1,4 @@
-
+import Numeric.LinearAlgebra
 termFrequency document term = length (filter (==t) document)
 
 compress k m = u_k <> sigma_k <> v_k where
