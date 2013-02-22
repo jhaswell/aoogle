@@ -1,5 +1,5 @@
 import Numeric.LinearAlgebra
-termFrequency document term = length (filter (==t) document)
+termFrequency document term = length (filter (==term) document)
 
 compress k m = u_k <> sigma_k <> v_k where
 	(u,sigma,v) = fullSVD m			       
